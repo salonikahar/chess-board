@@ -1,0 +1,35 @@
+*{
+	padding:0;
+	margin:0;
+    box-sizing:border-box;
+	
+}
+.chess{
+    width:1020px;
+    height:100vh;
+    border: 5px solid black;
+    margin:0 auto;
+
+}
+.box{
+
+    width:calc(100% /8);
+    height:calc(100% /8);
+    float:left;
+    object-fit:contain;
+
+
+}
+.bg-color{
+    background-color: #eee9e6;
+}
+.bg{
+    background-color: #B2A9A0;
+}
+img{
+    width:100%;
+    height: 100%;
+    padding:10px;
+    object-fit:contain ;
+
+}
